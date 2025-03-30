@@ -134,3 +134,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Optional artifact directories
+dist
+build
+coverage
+
+# Directory used inside the container, prevent committing if mapped locally
+/workspace
